@@ -133,7 +133,6 @@ elements.shopping.addEventListener('click', e => {
 /**
  * LIKE CONTROLLER
  */
-
 const controlLike = () => {
   // if(!state.likes)
   const currentId = state.recipe.id;
@@ -203,5 +202,3 @@ elements.recipe.addEventListener('click', e => {
         controlLike()
     }
 })
-
-window.l = new List();
